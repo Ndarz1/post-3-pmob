@@ -17,4 +17,10 @@
   <string name="confirm_password">Confirm Password:</string>
   <string name="re_enter_your_password">Re-enter your password</string>
   <string name="submit">Submit</string>
+  <string name="registration_result">Registration Result</string>
+  <string name="full_name_result">Full Name:</string>
+  <string name="username_result">Username:</string>
+  <string name="age_result">Age:</string>
+  <string name="email_result">Email:</string>
+  <string name="gender_result">Gender:</string>
 </resources>
