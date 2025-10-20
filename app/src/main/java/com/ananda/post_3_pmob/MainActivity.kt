@@ -26,24 +26,7 @@ class MainActivity : AppCompatActivity() {
     
     setContentView(binding.root)
     
-    binding.apply {
-      btnSubmit.setOnClickListener {
-        val name = isinama.text.toString()
-        if(rdb1.isChecked){
-          jenisKelamin = "Laki - laki"
-        } else if (rdb2.isChecked) {
-          jenisKelamin = "Perempuan"
-        }
-        
-        
-        val intent = Intent(this@MainActivity, ActivityResult::class.java)
-          .putExtra(DATA_NAMA, name)
-          .putExtra(DATA_KELAMIN, accBtn)
-          .putExtra(DATA_ACC, accBtn)
-        startActivity(intent)
-        
-      }
-    }
+ 
     
   }
 }
