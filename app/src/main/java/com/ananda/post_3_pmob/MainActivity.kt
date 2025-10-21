@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         return@setOnClickListener
       }
       
-      val  intent = Intent(this, ActivityResult::class.java).apply {
+      val intent = Intent(this, ActivityResult::class.java).apply {
         putExtra("fullName", fullName)
         putExtra("userName", userName)
         putExtra("age", age)
@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
       startActivity(intent)
     }
     
- 
     
   }
 }
